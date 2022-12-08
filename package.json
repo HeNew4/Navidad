@@ -2,6 +2,7 @@
 	"name": "navidad",
 	"version": "1.0.0",
 	"description": "La navidad a llegado (tambien un prueba de algo xD)",
+	"type": "module",
 	"main": "index.ts",
 	"scripts": {
 		"build": "tsc",
