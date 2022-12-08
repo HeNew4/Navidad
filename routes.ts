@@ -7,7 +7,7 @@ export const routes = {
       res.send('Zader')
    },
    ian: (req: Request, res: Response) => {
-      res.send('Ian')
+      res.sendFile(path.join(__dirname+'/view/ian.html'));
    },
    yankel: (req: Request, res: Response) => {
       res.send('Yankel')
