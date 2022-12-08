@@ -5,4 +5,16 @@
 
 body {
    background-color: #f3f3f3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cart {
+   margin: 20px;
+   padding: 20px  ;
+   background-color:  #f9f5cf ;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   width: 80vw;
+   height: 200px;
 }
